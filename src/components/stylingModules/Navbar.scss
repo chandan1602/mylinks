@@ -1,0 +1,25 @@
+$navColor : #067CFF;
+
+.navbar {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar:hover{
+    background-color: darken($navColor, 3.5%) !important;
+}
+
+.navLinks {
+    color : #fff !important;
+}
+
+.navLinks:hover {
+    background-color: lighten($navColor, 5%);
+    text-decoration: none;
+    color:  #fff;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
